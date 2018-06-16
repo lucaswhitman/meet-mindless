@@ -34,12 +34,13 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.1.0', require: false
+gem 'bootsnap', '>= 1.1.0', require: falseq
 
 # Bootstrap for grid system
 gem 'bootstrap-sass', '~> 3.3.6'
 # Bootstrap dependency
 gem 'jquery-rails'
+gem 'bootstrap_form'
 
 # Auth
 gem 'devise'
